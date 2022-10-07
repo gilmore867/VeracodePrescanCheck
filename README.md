@@ -1,6 +1,6 @@
 This is a simple PowerShell script to determine the status of an existing policy scan. The script may be adapted to delete scans on the Veracode platform based on a status message.
 
-Download the VeracodePrescanCheck.ps1 file. Edit the VeracodePrescanCheck.ps1 file with the following requirements:
+Download the PrescanCheck.ps1 file. Edit the PrescanCheck.ps1 file with the following requirements:
 
 Give the exact name of the profile application name for $appname. Example $appname = "Test"
 The PowerShell script requires access to the Veracode Java API jar file. The script uses the name "VeracodeJavaAPI.jar" filename. This file can be found at https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/
